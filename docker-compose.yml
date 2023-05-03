@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  mytarget-connector:
+    image: mytarget-connector
+    build: .
+    command: npm start
+    # command: node tests/test.js
+    network_mode: "host"
+    # restart: always
+    volumes:
+      - /Users/nsternyaev/Documents/SberMarketing/Scripts/Shared_Data:/system/logs

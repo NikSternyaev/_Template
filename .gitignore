@@ -1,0 +1,20 @@
+.env
+keys
+node_modules
+downloads
+system
+tests
+
+# Clickhouse
+clickhouse
+clickhouse.0
+user_defined
+user_files
+user_scripts
+store
+preprocessed_configs
+metadata
+metadata_dropped
+dictionaries_lib
+data
+uuid

@@ -1,0 +1,10 @@
+{
+    "banners" : {
+        "fields" : ["id","name","status","moderation_status","created","updated","campaign_id","urls","textblocks","content"]
+    },
+    "statistics" : {
+        "type" : "banners",
+        "metrics" : ["base","video","uniques"],
+        "fields" : []
+    }
+}

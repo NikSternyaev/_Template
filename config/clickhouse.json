@@ -1,0 +1,14 @@
+{
+    "mytarget_campaigns" : {
+        "database" :  "analytics",
+        "table" : "mytarget_campaigns"
+    },
+    "mytarget_banners" : {
+        "database" :  "analytics",
+        "table" : "mytarget_banners"
+    },
+    "mytarget_statistics" : {
+        "database" :  "analytics",
+        "table" : "mytarget_statistics"
+    }
+}

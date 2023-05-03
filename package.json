@@ -1,0 +1,20 @@
+{
+  "name": "mytarget-connector",
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "NODE_ENV=production ./node_modules/.bin/nodemon app.js --ignore './system/*' --ignore './downloads/*' 1>> ./system/console.log 2>> ./system/errors.log",
+    "dev": "node tests/test.js"
+  },
+  "imports": {
+    "#lib/*.js": "./lib/methods/*.js",
+    "#utils/*.js": "./lib/utils/*.js"
+  },
+  "dependencies": {
+    "bunyan": "^1.8.15",
+    "dotenv": "^16.0.3",
+    "jsonwebtoken": "^9.0.0",
+    "nodemon": "^2.0.22",
+    "postgres": "^3.3.4"
+  }
+}

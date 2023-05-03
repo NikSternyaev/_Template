@@ -1,0 +1,18 @@
+{
+    "credentials": {
+        "table": "credentials",
+        "scheme": "technical"
+    },
+    "mytarget_clients" : {
+        "table": "mytarget_clients",
+        "scheme": "dictionaries"
+    },
+    "mytarget_clients_credentials" : {
+        "table": "mytarget_clients_credentials",
+        "scheme": "technical"
+    },
+    "mytarget_users": {
+        "table": "mytarget_users",
+        "scheme": "dictionaries"
+    }
+}
